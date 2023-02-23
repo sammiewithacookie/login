@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(221, 221, 221);
+   
+    
+}
+
+.outer{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+.container{
+    width: 400px;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid red;
+    background-color: white;
+    justify-content: space-evenly;
+}
+.card1{
+    display: flex;
+    flex-flow: column wrap;
+   gap: 10px;
+   padding: 10px;
+}
+
+/* .email{
+    border-radius: 5px;
+    height: 30px;
+} */
+
+.password{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.blue{
+    color: blue;
+}
+
+.password-input{
+
+    display: flex;
+    flex-flow: column wrap;
+    padding: 10px;
+    align-items: stretch;
+    
+}
+input{
+    border-radius: 5px;
+    height: 30px;
+}
+
+.button{
+    padding: 10px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: stretch;
+}
+
+button{
+    background-color: rgb(69, 158, 241);
+    color: white;
+    border-radius: 5px;
+    height: 35px;
+}
+
+.question{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
